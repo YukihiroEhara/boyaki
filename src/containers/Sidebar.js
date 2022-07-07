@@ -149,7 +149,7 @@ export default function Sidebar({ activeListItem }) {
                 onClick={onPost}
                 fullWidth
               >
-                投稿する
+                投稿
               </Button>
             }
           />
