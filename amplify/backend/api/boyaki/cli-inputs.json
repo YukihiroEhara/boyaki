@@ -6,7 +6,7 @@
     "gqlSchemaPath": "/Users/yukihiro/projects/amplify-sns-workshop/boyaki/amplify/backend/api/boyaki/schema.graphql",
     "defaultAuthType": {
       "mode": "AMAZON_COGNITO_USER_POOLS",
-      "cognitoUserPoolId": "authboyakid7546aa5"
+      "cognitoUserPoolId": "authboyakif67ac603"
     }
   }
 }

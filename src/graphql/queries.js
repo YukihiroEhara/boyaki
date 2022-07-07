@@ -66,7 +66,7 @@ export const listPostsSortedByTimestamp = /* GraphQL */ `
 `;
 export const listPostsBySpecificOwner = /* GraphQL */ `
   query ListPostsBySpecificOwner(
-    $content: String!
+    $owner: String!
     $timestamp: ModelIntKeyConditionInput
     $sortDirection: ModelSortDirection
     $filter: ModelPostFilterInput
@@ -74,7 +74,7 @@ export const listPostsBySpecificOwner = /* GraphQL */ `
     $nextToken: String
   ) {
     listPostsBySpecificOwner(
-      content: $content
+      owner: $owner
       timestamp: $timestamp
       sortDirection: $sortDirection
       filter: $filter
