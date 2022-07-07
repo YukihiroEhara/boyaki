@@ -1,6 +1,6 @@
 {
   "auth": {
-    "boyakid7546aa5": {
+    "boyakif67ac603": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
@@ -32,7 +32,7 @@
       "dependsOn": [
         {
           "category": "auth",
-          "resourceName": "boyakid7546aa5",
+          "resourceName": "boyakif67ac603",
           "attributes": [
             "UserPoolId"
           ]
@@ -43,7 +43,7 @@
           "defaultAuthentication": {
             "authenticationType": "AMAZON_COGNITO_USER_POOLS",
             "userPoolConfig": {
-              "userPoolId": "authboyakid7546aa5"
+              "userPoolId": "authboyakif67ac603"
             }
           },
           "additionalAuthenticationProviders": []
